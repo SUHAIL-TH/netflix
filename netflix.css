@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.container{
+    width: 100%;
+    background: black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.part1{
+    width: 100%;
+    height: 669px;
+    background-image:url("netflixbackground\ image.jpg") ;
+    filter: brightness(75%);
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px;
+   
+}
+.part1header{
+    display: flex;
+    width: 100%;
+    height: 94px;  
+}
+.netflix-logo{
+    width: 132px;
+    height: 34px;
+    margin-left: 53px;
+}
+.sign-in-section{
+    height: 34px;
+    width: 237px;
+    margin-left: 898px;
+}
+.language-selection{
+    width: 91px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: transparent;
+    font: bolder;
+    color: #fff;
+    outline: none;
+    padding-left: 15px;
+    border-color: #fff;
+}
+.part1-language-icon{
+    width: 14px;
+    position: absolute;
+    margin-left: -91px;
+    margin-top: 11px;
+}
+.sign-in-button{ 
+    width: 91px;
+    height: 34px;
+    border-radius: 5px;
+    margin-left: 30px;
+    text-align: center; 
+    border: none;
+    background: #e50914;
+    color: #fff;
+    cursor: pointer;
+}
+.part-1-maindiv{
+    width: 666px;
+    height: 292px;
+    margin-left: 341px;
+    margin-top: 140px;
+    text-align: center;  
+}
+.unlimited-movies{
+    font-size: 3.125rem;
+    color: #fff;
+}
+.watch-anywhere{
+    color: #fff;
+    font-weight: 400;
+}
+.ready-to-watch{
+    color: #fff;
+    font-weight: 400;
+}
+.email-get-started{
+    width: 800px;
+    height: 85px;
+    text-align: start;
+    float: left;
+}
+.email{
+    width: 446px;
+    height: 58px;
+    margin-top: 0;
+    font-size: 17px;
+    padding-left: 5px;
+    position: absolute;
+    outline: none;
+    border: none;
+}
+.get-started-button{
+    height: 60px;
+    width: 200px;
+    font-size: 22px;
+    font-weight: 400px;
+    margin-left: 451px;
+    position: absolute;
+    background: #e50914;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.part-bottom-border{
+    width: 100%;
+    height: 6px;
+    background: grey;
+}
+/* part 1 ended */
+.part2{
+    height: 465px;
+    width: 100%;
+}
+.part-2-main-div{
+    width: 1120px;
+    height: 400px;
+    margin: auto;
+    margin-top: 111px;
+    display: flex;
+}
+.part-2-left-div{
+    height: 168px;
+    width: 510px;
+    margin-top: 57px;
+    line-height: 1.1;
+}
+.enjoy-tv{
+    font-size: 3.125rem;
+    color: #fff;
+}
+.watch-on-smart-tv{
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.part-2-right-div{
+    height: 400px;
+    width: 560px;
+    margin-left: 77px;
+}
+.part2-vidio{
+    width: 409px;
+    height: 202px;
+    margin-top: 17px;
+    margin-left: -454px;
+    position: absolute;
+}
+.tv-image{
+   width: 495px;
+   height: 370px;
+   margin-top: -60px;
+   margin-left: 25px;
+   position: relative;
+   z-index: 2;
+}
+/* part2ended */
+.part3{
+    width: 100%;
+    height: 460px;
+}
+.part-3-main-div{
+    height: 392px;
+    width: 1256px;
+    margin: auto;
+    margin-top: 46px;
+    display: flex;
+}
+.part-3-left-div{
+    width: 35%;
+    height: 392px;
+}
+.part-3-right-div{
+    width: 65%;
+    height: 392px;
+}
+.part3-image{
+    height: 400px;
+    width: 510px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.part-3-left-inner-div{
+    width: 330px;
+    height: 95px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-left: 85px;
+    margin-top: -130px;
+    position: absolute;
+    background: black;
+}
+.part3-book-image{
+    width: 52px;
+    height: 71px;
+    margin-top: -49px;
+    margin-left: 17px;
+}
+.download-icon{
+    width: 55px;
+    height: 53px;
+    margin-left: 193px;
+    margin-top: -44px;
+    position: absolute;
+}
+.stranger{
+    font-weight: 600;
+    color: #fff;
+    margin-left: 97px;
+    font-size: 17px;
+    margin-top: 26px;
+}
+.downloading{
+    color: #0071eb;
+    font-weight: 400;
+    font-size: .9em;
+    margin-left: 97px;
+}
+.download{
+    font-size: 3.125rem;
+    color: #fff;
+    margin-top: 116px;
+    margin-left: 230px;
+}
+.save-your-favorate{
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-left: 230px;
+}
+/* part3ended */
+
+.part4{
+    width: 100%;
+    height: 460px;
+}
+.part-4-main-div{
+    width: 1120px;
+    height: 400px;
+    margin: auto;
+    margin-top: 111px;
+    display: flex;
+}
+.part-4-left-div{
+    height: 168px;
+    width: 510px;
+    margin-top: 57px;
+    line-height: 1.1;   
+}
+.whatch-everywhere{
+    font-size: 3.125rem;
+    color: #fff;
+}
+.strem-unlimited{
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.part-4-right-div{
+    height: 400px;
+    width: 560px;
+    margin-left: 77px;
+}
+.part4-tv-image{
+   width: 560px;
+   height: 370px;
+   margin-top: -60px;
+   margin-left: 25px;
+   position: relative;
+   z-index: 2;
+}
+.part4-vidio{
+    width: 338px;
+    height: 187px;
+    margin-left: 135px;
+    margin-top: -344px;
+    position: absolute;
+}
+/* part4 ended */
+
+.part5{
+    width: 100%;
+    height: 520px;
+}
+.part-5-main-div{
+    height: 392px;
+    width: 1256px;
+    margin: auto;
+    margin-top: 46px;
+    display: flex;
+}
+.part-5-left-div{
+    width: 35%;
+    height: 392px;
+}
+.part5-image{
+    height: 400px;
+    width: 510px;
+    margin-top: 35px;
+    margin-left: 69px;
+}
+.part-5-right-div{
+    width: 65%;
+    height: 392px;
+}
+.create-profile{
+    font-size: 3.125rem;
+    color: #fff;
+    margin-top: 116px;
+    margin-left: 230px;
+}
+.send-children{
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-left: 230px;
+}
+
+/* part5-ended */
+
+.part6{
+    width: 100%;
+    height: 915px;
+}
+.part6-main-div{
+    height: 825px;
+    width: 814px;
+    margin: auto;
+    margin-top: 74px;
+    text-align: center;
+}
+.part-6-head{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.part-6-questions{
+    width: 100%;
+    height: 70px;
+    background: #222;
+    margin-top: 11px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.plus-icon{
+    height: 1em;
+    fill: #fff;
+    transform:rotate(45deg);
+}
+.part6-ready-to-watch{
+    color: #fff;
+    font-weight: 400;
+    margin-top: 72px;
+}
+.part6-email-get-started{
+    width: 800px;
+    height: 85px;
+    text-align: start;
+    float: left;
+    margin-left: 80px;
+    margin-top: 6px;
+}
+.part6-email{
+    width: 446px;
+    height: 58px;
+    font-size: 17px;
+    padding-left: 5px;
+    position: absolute;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.part6-email:focus{
+   border-bottom-color: #ffa00a;
+}
+.part6-get-started-button{
+    height: 60px;
+    width: 200px;
+    font-size: 22px;
+    font-weight: 400px;
+    margin-left: 451px;
+    position: absolute;
+    background: #e50914;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+/* part6 ended */
+
+.part7{
+    width: 100%;
+    height: 393px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.part7-main-div{
+    width: 916px;
+    height: 327px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 44px;   
+}
+.part7-side-heading{
+    color: #737373;
+}
+.part7-table{
+    width: 756px;
+    height: 113px;
+    color: #737373;
+    font-size: 13px;
+}
+.hovers{
+    cursor: pointer;
+}
+.hovers:hover{
+    text-decoration: underline;
+    
+}
+.part7-language-selection{
+    color: #737373;
+    background-color: #000;
+    font-size: 18px;
+    font: bolder;
+    width: 131px;
+    height: 50px;
+    border-color: #737373;
+    padding-left: 45px;
+    border-radius: 5px;
+    margin-top: 35px;
+    outline: none;
+}
+.part7-language-icon{
+    width: 25px;
+    margin-left: -121px;
+    position: absolute;
+    margin-top: 46px;
+   
+}
+.netflix-india{
+    color: #737373;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+
